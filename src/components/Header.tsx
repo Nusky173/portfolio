@@ -14,7 +14,7 @@ const Header = () => {
                     <nav className='flex flex-no-wrap w-auto'>
                         <Button
                             variant='link'
-                            className='hidden w-0 md:block'>
+                            className='hidden md:block'>
                             <a href='/'>Me</a>
                         </Button>
                         <Button variant='link'>
