@@ -191,6 +191,7 @@ function App() {
                                 <Badge variant='outline'>React</Badge>
                                 <Badge variant='outline'>GitHub</Badge>
                                 <Badge variant='outline'>Vercel</Badge>
+                                <Badge variant='outline'>Typescript</Badge>
                             </CardContent>
                         </CardHeader>
                     </Card>
@@ -220,6 +221,7 @@ function App() {
                             <CardContent className='flex flex-1 w-full flex-wrap gap-2 justify-center py-4'>
                                 <Badge variant='outline'>NextJs</Badge>
                                 <Badge variant='outline'>React</Badge>
+                                <Badge variant='outline'>Typescript</Badge>
                                 <Badge variant='outline'>Prisma</Badge>
                                 <Badge variant='outline'>NextAuth</Badge>
                                 <Badge variant='outline'>Github</Badge>
@@ -250,6 +252,7 @@ function App() {
                             <Badge variant='outline'>C#</Badge>
                             <Badge variant='outline'>Angular</Badge>
                             <Badge variant='outline'>MySQL</Badge>
+                            <Badge variant='outline'>Typescript</Badge>
                             <Badge variant='outline'>ASP .NET Core</Badge>
                             <Badge variant='outline'>
                                 Jira & BitBucket & Confluence
@@ -276,6 +279,7 @@ function App() {
                         <CardFooter className='flex flex-1 w-full flex-wrap gap-2 justify-center py-4'>
                             <Badge variant='outline'>Java</Badge>
                             <Badge variant='outline'>LitElement</Badge>
+                            <Badge variant='outline'>Typescript</Badge>
                             <Badge variant='outline'>PostgreSQL</Badge>
                             <Badge variant='outline'>GitLab</Badge>
                             <Badge variant='outline'>Junit</Badge>
