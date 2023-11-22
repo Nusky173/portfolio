@@ -8,7 +8,7 @@ const Header = () => {
                 <div className='flex gap-6 md:gap-10'>
                     <Avatar>
                         <AvatarImage
-                            src='@/../public/avatar.png'
+                            src='https://avatars.githubusercontent.com/u/45296536?v=4'
                             alt='my-picture'></AvatarImage>
                     </Avatar>
                 </div>
