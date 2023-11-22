@@ -39,7 +39,7 @@ function App() {
                     className='background-image rounded-full absolute inset-x-3/4 inset-y-56 invisible lg:visible'
                     width='250'
                     height='250'
-                    src='@/../public/avatar.PNG'
+                    src='https://avatars.githubusercontent.com/u/45296536?v=4'
                     alt='my-picture'
                 />
                 <div className='text-9xl ml-6'>Simon Lecordier</div>
