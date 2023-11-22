@@ -48,10 +48,10 @@ function App() {
                     Simon Lecordier
                 </div>
                 <div className='text-4xl lg:text-5xl mt-4'>
-                    Looking for opportunity as web Developper.
+                    Looking for opportunities as a web Developper.
                 </div>
                 <div className='text-4xl lg:text-5xl mt-6 ml-8'>
-                    Based at Nantes, can moove to Rennes.
+                    Based in Nantes, can move to Rennes.
                 </div>
 
                 <div className='mt-8 w-full md:flex md:justify-end'>
