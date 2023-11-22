@@ -76,7 +76,7 @@ function App() {
                 </div>
                 <Title id='skills'>Skills</Title>
                 <div className='flex flex-1 flex-wrap w-full gap-y-12 lg:gap-y-6 justify-around lg:justify-between'>
-                    <Skills className='basis-1/3 lg:basis-1/6'>
+                    <Skills className='basis-1/2 lg:basis-1/6'>
                         <SkillsTitle>Front-End</SkillsTitle>
                         <SkillsValuesContent>
                             <SkillsValue>
@@ -97,7 +97,7 @@ function App() {
                         </SkillsValuesContent>
                     </Skills>
 
-                    <Skills className='basis-1/3 lg:basis-1/6'>
+                    <Skills className='basis-1/2 lg:basis-1/6'>
                         <SkillsTitle>Back-End</SkillsTitle>
                         <SkillsValuesContent>
                             <SkillsValue>
@@ -118,7 +118,7 @@ function App() {
                         </SkillsValuesContent>
                     </Skills>
 
-                    <Skills className='basis-1/3 lg:basis-1/4'>
+                    <Skills className='basis-1/2 lg:basis-1/4'>
                         <SkillsTitle>Project Management</SkillsTitle>
                         <SkillsValuesContent>
                             <SkillsValue>
@@ -139,7 +139,7 @@ function App() {
                         </SkillsValuesContent>
                     </Skills>
 
-                    <Skills className='basis-1/3 lg:basis-1/6'>
+                    <Skills className='basis-1/2 lg:basis-1/6'>
                         <SkillsTitle>Other</SkillsTitle>
                         <SkillsValuesContent>
                             <SkillsValue>
@@ -153,7 +153,7 @@ function App() {
                         </SkillsValuesContent>
                     </Skills>
 
-                    <Skills className='basis-1/3 lg:basis-1/6'>
+                    <Skills className='basis-1/2 lg:basis-1/6'>
                         <SkillsTitle>Soft Skills</SkillsTitle>
                         <SkillsValuesContent>
                             <SkillsValue className='ml-2'>Curious</SkillsValue>

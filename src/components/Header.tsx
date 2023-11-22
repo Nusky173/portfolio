@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 const Header = () => {
     return (
-        <header className='top-0 w-full bg-background'>
+        <header className='top-0 w-full bg-background -ml-6'>
             <div className='lg:container flex h-16 space-between items-center md:space-x-4'>
                 <Avatar>
                     <AvatarImage
