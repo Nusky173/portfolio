@@ -4,22 +4,20 @@ import { Button } from './ui/button';
 const Header = () => {
     return (
         <header className='top-0 w-full bg-background'>
-            <div className='container flex h-16 items-center space-x-4 sm:space-between sm:space-x-0'>
-                <div className='flex gap-6 md:gap-10'>
-                    <Avatar>
-                        <AvatarImage
-                            src='https://avatars.githubusercontent.com/u/45296536?v=4'
-                            alt='my-picture'></AvatarImage>
-                    </Avatar>
-                </div>
-                <div className='flex flex-1 items-center justify-end space-x-4'>
-                    <nav>
-                        <Button variant='link'>
-                            <a href='/'>Me</a>
-                        </Button>
+            <div className='lg:container flex h-16 space-between items-center md:space-x-4'>
+                <Avatar>
+                    <AvatarImage
+                        src='https://avatars.githubusercontent.com/u/45296536?v=4'
+                        alt='my-picture'></AvatarImage>
+                </Avatar>
+                <div className='flex flex-1 items-center justify-end '>
+                    <nav className='flex flex-no-wrap w-auto'>
                         <Button
                             variant='link'
-                            className='color-menu'>
+                            className='hidden w-0 md:block'>
+                            <a href='/'>Me</a>
+                        </Button>
+                        <Button variant='link'>
                             <a href='#skills'>Skills</a>
                         </Button>
                         <Button variant='link'>

@@ -33,25 +33,29 @@ function App() {
             <main className='flex flex-col flex-1 items-start mt-24'>
                 <div className='text-7xl'>
                     Hello !
-                    <span className='text-5xl'> I'm a Software Engineer.</span>
+                    <span className='ml-4 text-4xl lg:text-5xl'>
+                        I'm a Software Engineer.
+                    </span>
                 </div>
                 <img
-                    className='background-image rounded-full absolute inset-x-3/4 inset-y-56 invisible lg:visible'
+                    className='rounded-full absolute inset-x-3/4 inset-y-56 hidden lg:block'
                     width='250'
                     height='250'
                     src='https://avatars.githubusercontent.com/u/45296536?v=4'
                     alt='my-picture'
                 />
-                <div className='text-9xl ml-6'>Simon Lecordier</div>
-                <div className='text-5xl mt-4'>
+                <div className='my-4 lg:my-0 text-6xl lg:text-9xl ml-6'>
+                    Simon Lecordier
+                </div>
+                <div className='text-4xl lg:text-5xl mt-4'>
                     Looking for opportunity as web Developper.
                 </div>
-                <div className='text-5xl mt-6 ml-8'>
-                    Based at Nantes can moove to Rennes.
+                <div className='text-4xl lg:text-5xl mt-6 ml-8'>
+                    Based at Nantes, can moove to Rennes.
                 </div>
 
-                <div className='flex flex-1 flex-wrap w-full justify-end my-8'>
-                    <div className='mr-20 flex gap-4'>
+                <div className='mt-8 w-full md:flex md:justify-end'>
+                    <div className='flex flex-col md:flex-row flex-wrap items-end my-8 gap-4'>
                         <Button className='rounded-md'>
                             <a href='https://github.com/Nusky173'>Github</a>
                         </Button>
@@ -71,7 +75,7 @@ function App() {
                     </div>
                 </div>
                 <Title id='skills'>Skills</Title>
-                <div className='flex flex-1 flex-wrap w-full gap-y-6 justify-center lg:justify-between'>
+                <div className='flex flex-1 flex-wrap w-full gap-y-12 lg:gap-y-6 justify-around lg:justify-between'>
                     <Skills className='basis-1/3 lg:basis-1/6'>
                         <SkillsTitle>Front-End</SkillsTitle>
                         <SkillsValuesContent>
@@ -283,25 +287,23 @@ function App() {
                     Feel free to contact me by my email or through my social
                     networks.
                 </div>
-                <div className='flex flex-1 flex-wrap w-full justify-center my-8'>
-                    <div className='flex gap-4'>
-                        <Button className='rounded-md'>
-                            <a href='https://github.com/Nusky173'>Github</a>
-                        </Button>
-                        <Button className='rounded-md'>
-                            <a href='https://www.linkedin.com/in/simon-lecordier-511a69199/'>
-                                Linkedin
-                            </a>
-                        </Button>
-                        <Button className='rounded-md'>
-                            <a href='https://twitter.com/ShimonCode'>Twitter</a>
-                        </Button>
-                        <Button className='rounded-md'>
-                            <a href='mailto:simon50.lecordier@gmail.com'>
-                                simon50.lecordier@gmail.com
-                            </a>
-                        </Button>
-                    </div>
+                <div className='flex flex-wrap w-full justify-center my-8 gap-4'>
+                    <Button className='rounded-md basis:1/2 lg:basis-0'>
+                        <a href='https://github.com/Nusky173'>Github</a>
+                    </Button>
+                    <Button className='rounded-md'>
+                        <a href='https://www.linkedin.com/in/simon-lecordier-511a69199/'>
+                            Linkedin
+                        </a>
+                    </Button>
+                    <Button className='rounded-md'>
+                        <a href='https://twitter.com/ShimonCode'>Twitter</a>
+                    </Button>
+                    <Button className='rounded-md'>
+                        <a href='mailto:simon50.lecordier@gmail.com'>
+                            simon50.lecordier@gmail.com
+                        </a>
+                    </Button>
                 </div>
                 <div className='mt-16 w-full text-center'>
                     Designed and powered by Simon Lecordier
