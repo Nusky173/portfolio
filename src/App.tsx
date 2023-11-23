@@ -31,9 +31,9 @@ function App() {
         <>
             <Header></Header>
             <main className='flex flex-col flex-1 items-start mt-8 lg:mt-24'>
-                <div className='text-start text-4xl'>
+                <div className='text-start text-4xl lg:text-6xl'>
                     Hello !
-                    <span className='ml-4 text-2xl lg:text-5xl'>
+                    <span className='ml-4 text-2xl lg:text-4xl'>
                         I'm a Software Engineer.
                     </span>
                 </div>
