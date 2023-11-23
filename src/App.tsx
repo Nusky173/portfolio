@@ -54,8 +54,8 @@ function App() {
                     Based in Nantes, can move to Rennes.
                 </div>
 
-                <div className='my4 lg:my-16 w-full md:flex md:justify-end'>
-                    <div className='flex flex-col md:flex-row mt-4 flex-wrap items-end gap-4'>
+                <div className='mt-16 lg:my-16 w-full md:flex md:justify-end'>
+                    <div className='flex md:flex-row mt-4 flex-wrap justify-center gap-4'>
                         <Button className='rounded-md'>
                             <a href='https://github.com/Nusky173'>Github</a>
                         </Button>
