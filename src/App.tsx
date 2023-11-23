@@ -30,8 +30,8 @@ function App() {
     return (
         <>
             <Header></Header>
-            <main className='flex flex-col flex-1 items-start mt-24'>
-                <div className='text-7xl'>
+            <main className='flex flex-col flex-1 items-start mt-8 lg:mt-24'>
+                <div className='text-start text-6xl'>
                     Hello !
                     <span className='ml-4 text-4xl lg:text-5xl'>
                         I'm a Software Engineer.
@@ -44,18 +44,18 @@ function App() {
                     src='https://avatars.githubusercontent.com/u/45296536?v=4'
                     alt='my-picture'
                 />
-                <div className='my-4 lg:my-0 text-6xl lg:text-9xl ml-6'>
+                <div className='text-start my-4 lg:my-0 text-6xl lg:text-7xl'>
                     Simon Lecordier
                 </div>
-                <div className='text-4xl lg:text-5xl mt-4'>
+                <div className='text-start text-4xl lg:text-4xl mt-4'>
                     Looking for opportunities as a web Developper.
                 </div>
-                <div className='text-4xl lg:text-5xl mt-6 ml-8'>
+                <div className='text-start text-4xl lg:text-4xl mt-6'>
                     Based in Nantes, can move to Rennes.
                 </div>
 
-                <div className='mt-8 w-full md:flex md:justify-end'>
-                    <div className='flex flex-col md:flex-row flex-wrap items-end my-8 gap-4'>
+                <div className='my4 lg:my-16 w-full md:flex md:justify-end'>
+                    <div className='flex flex-col md:flex-row mt-4 flex-wrap items-end gap-4'>
                         <Button className='rounded-md'>
                             <a href='https://github.com/Nusky173'>Github</a>
                         </Button>
