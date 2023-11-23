@@ -31,9 +31,9 @@ function App() {
         <>
             <Header></Header>
             <main className='flex flex-col flex-1 items-start mt-8 lg:mt-24'>
-                <div className='text-start text-6xl'>
+                <div className='text-start text-4xl'>
                     Hello !
-                    <span className='ml-4 text-4xl lg:text-5xl'>
+                    <span className='ml-4 text-2xl lg:text-5xl'>
                         I'm a Software Engineer.
                     </span>
                 </div>
@@ -44,13 +44,13 @@ function App() {
                     src='https://avatars.githubusercontent.com/u/45296536?v=4'
                     alt='my-picture'
                 />
-                <div className='text-start my-4 lg:my-0 text-6xl lg:text-7xl'>
+                <div className='text-start my-4 lg:my-0 text-4xl lg:text-7xl'>
                     Simon Lecordier
                 </div>
-                <div className='text-start text-4xl lg:text-4xl mt-4'>
+                <div className='text-start text-2xl lg:text-4xl mb-4 lg:mt-4'>
                     Looking for opportunities as a web Developper.
                 </div>
-                <div className='text-start text-4xl lg:text-4xl mt-6'>
+                <div className='text-start text-2xl lg:text-4xl lg:mt-6'>
                     Based in Nantes, can move to Rennes.
                 </div>
 
